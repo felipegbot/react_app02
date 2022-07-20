@@ -3,13 +3,22 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 
 import styles from './App.module.css';
+import Form from './components/Form/form';
+import List from './components/List/List';
 
 function App() {
     return (
         <div>
             <Header />
             <main className={styles.main}>
-                <h1>conteudo</h1>
+                <div>
+                    <h2> O que você vai fazer?</h2>
+                    <Form btnText="Criar Tarefa" />
+                </div>
+                <div>
+                    <h2>Suas tarefas:</h2>
+                    <List />
+                </div>
             </main>
             <Footer />
         </div>
