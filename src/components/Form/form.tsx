@@ -1,6 +1,6 @@
-import React from 'react';
-
+import React, { useState, ChangeEvent, FormEvent, useEffect } from 'react';
 import styles from './Form.module.css';
+import { ITarefa } from '../../interfaces/tarefa';
 
 interface Props {
     btnText: string;

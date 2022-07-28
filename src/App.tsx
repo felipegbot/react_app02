@@ -6,6 +6,8 @@ import styles from './App.module.css';
 import Form from './components/Form/form';
 import List from './components/List/List';
 
+import { ITarefa } from './interfaces/tarefa';
+
 function App() {
     return (
         <div>
